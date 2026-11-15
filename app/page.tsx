@@ -40,6 +40,7 @@ function Home(){
   return(
     <div>
       <h1>Users</h1>
+      <h2>Login Page</h2>
 
       {use.map((user) => (
         <div key={user.id}>
